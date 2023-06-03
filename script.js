@@ -16,10 +16,10 @@ function getRandomPokemon() {
             `;
       document.getElementById('carouselInner').innerHTML = `
               <div class="carousel-item active">
-                <img src="${pokemonImages.front_default}" class="d-block w-100" alt="...">
+                <img src="${pokemonImages.front_default}" class="d-block w-100" alt="${pokemonName+'/front.img'}">
               </div>
               <div class="carousel-item">
-                <img src="${pokemonImages.back_default}" class="d-block w-100" alt="...">
+                <img src="${pokemonImages.back_default}" class="d-block w-100" alt="${pokemonName+'/back.img'}">
               </div>
             `;
       document.getElementById('abilitiesBody').innerHTML = '';
